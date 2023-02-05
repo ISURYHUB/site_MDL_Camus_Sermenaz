@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> MDL Camus-Sermenaz </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+     <!--Barre de navigation-->
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="../index.html">MDL Camus-Sermenaz</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">MDL Camus-Sermenaz</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="../index.html">ACCUEIL</a></li>
+          <li>
+            <a href="#">CLUBS</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Club Musique</a></li>
+              <li><a href="#">Club Manga</a></li>
+              <li><a href="#">Club d'Echecs et...</a></li>
+              <li class="more">
+                <span><a href="#">Plus</a>
+                  <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                </span>
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="#">Club 4...</a></li>
+                    <li><a href="#">Club 5...</a></li>
+                    <li><a href="#">Club 6...</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">ARTICLES</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="/html/all-articles.html">THEME 1</a></li>
+              <li><a href="/html/all-articles.html">THEME 2</a></li>
+              <li><a href="/html/all-articles.html">THEME 3</a></li>
+              <li><a href="/html/all-articles.html">THEME 4</a></li>
+            </ul>
+          </li>
+          <li><a href="/html/gallery.html">GALERIE</a></li>
+          <li><a href="/html/faq.html">À PROPOS DE NOUS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!--//Barre de navigation-->  
+
+      <!--LOGO-->
+      <br>
+      <center><img alt="blog" src="images/LOGO MDL.png" class="logo-mdl" /></center>
+      <br>
+      <!--//LOGO-->
+      <!--Section des articles récents-->
+      <section id="blog">
+        <div class="blog-heading">
+          <h3>Articles récents</h3>
+        </div>
+        <div class="blog-container">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img alt="blog" src="images/blog-1.jpeg">
+            </div>
+            <div class="blog-text">
+              <span>2 février 2023 / Thème 1</span>
+              <a href="#" class="blog-title">Exemple d'un titre d'article récent (c'est un exemple)</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis modi veritatis adipisci omnis perferendis deleniti tempore quasi? Explicabo recusandae soluta vel cum perspiciatis consequuntur dolorum distinctio minima voluptate quae?</p>
+              <a href="#">Lire la suite</a>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="blog-img">
+              <img alt="blog" src="images/blog-2.jpeg">
+            </div>
+            <div class="blog-text">
+              <span>2 février 2023 / Thème 2</span>
+              <a href="#" class="blog-title">Exemple d'un titre d'article récent (c'est un exemple)</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis modi veritatis adipisci omnis perferendis deleniti tempore quasi? Explicabo recusandae soluta vel cum perspiciatis consequuntur dolorum distinctio minima voluptate quae?</p>
+              <a href="#">Lire la suite</a>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="blog-img">
+              <img alt="blog" src="images/blog-3.jpeg">
+            </div>
+            <div class="blog-text">
+              <span>2 février 2023 / Thème 3</span>
+              <a href="#" class="blog-title">Exemple d'un titre d'article récent (c'est un exemple)</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis modi veritatis adipisci omnis perferendis deleniti tempore quasi? Explicabo recusandae soluta vel cum perspiciatis consequuntur dolorum distinctio minima voluptate quae?</p>
+              <a href="#">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+        <a href="/html/all-articles.html"><button class="all">Voir tous les articles</button></a>
+      </section>
+
+      <!--//Section des articles récents-->
+
+      <!--Galerie-->
+      <div class="gallery-title">
+        <h3>Galerie</h3>
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/blog-1.jpeg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/blog-2.jpeg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/blog-3.jpeg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br>
+    <center><a href="html/gallery.html"><button class="all">Voir toutes les photos</button></a></center>
+    <br>
+      <!--//Galerie-->
+
+      <!--Footer-->
+      <footer class="footer">
+        <div class="container-f">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">Club Musique</a></li>
+                <li><a href="#">Club Manga</a></li>
+                <li><a href="#">Club d'Echecs et...</a></li>
+                <li><a href="#">Club 4...</a></li>
+                <li><a href="#">Club 5...</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Articles</h4>
+              <ul>
+                <li><a href="/html/all-articles.html">THEME 1</a></li>
+                <li><a href="/html/all-articles.html">THEME 2</a></li>
+                <li><a href="/html/all-articles.html">THEME 3</a></li>
+                <li><a href="/html/all-articles.html">THEME 4</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Autres</h4>
+              <ul>
+                <li><a href="/html/gallery.html">GALERIE</a></li>
+                <li><a href="/html/faq.html">À PROPOS DE NOUS</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Restez connectés</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+      <!--//Footer-->
+
+      <!--Scripts-->
+      <script src="/js/script.js"></script>
+      <!--//Scripts-->
+</body>
+</html>
