@@ -486,6 +486,32 @@ a {
     left: 10px;
   }
 }
+
+@media only screen and (max-width: 1750px) {
+.pdf {
+  height: 1000px;
+}
+}
+
+@media only screen and (max-width: 1350px) {
+  .pdf {
+    height: 850px;
+  }
+  }
+
+  @media only screen and (max-width: 1150px) {
+    .pdf {
+      height: 750px;
+    }
+    }
+
+    @media only screen and (max-width: 400px) {
+      .pdf {
+        height: 500px;
+      }
+      }
+
+
  /* //Content */
 
  /* Footer */
